@@ -3,7 +3,7 @@
 // take in arr and name, filter that array for matching (case insensitive) name, return matches in array
 function findMatching(arr, name) {
   let newArr = arr.filter(driverName => driverName.toLowerCase() === name.toLowerCase())
-    // return newArr;
+    return newArr;
 };
 
 function fuzzyMatch() {
