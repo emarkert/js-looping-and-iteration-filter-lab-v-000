@@ -8,7 +8,7 @@ function findMatching(arr, name) {
 
 // returns matches on first two letters, does not return anything on middle or last combos
 function fuzzyMatch(arr, letters) {
-  let newArr = arr.filter(combo => letters === combo.slice(0, 1))
+  let newArr = arr.filter(combo => letters === combo.slice(0, 2))
     return newArr;
 }
 
