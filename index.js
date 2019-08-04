@@ -1,10 +1,9 @@
 // Code your solution in this file
 
 // returns all drivers matching passed in name, case insensitive, returns empty array if no matches
-function findMatching(firstArray, name) {
-  return firstArray.filter(function (driverName) {
-    if {(driverName.toLowerCase() === name.toLowerCase())
-        return firstArray;
+function findMatching(arr, name) {
+  return arr.filter(function (driverName) {
+    return driverName.toLowerCase() === arr.toLowerCase()
   })
 };
 
