@@ -12,6 +12,8 @@ function fuzzyMatch(arr, letters) {
     return newArr;
 }
 
-function matchName() {
-
+// accepts data, name, filters data for exact mathces in names, returns array of that data
+function matchName(arr, name) {
+  let newArr = arr.filter(driver => driver.name === name)
+    return newArr;
 }
