@@ -1,10 +1,9 @@
 // Code your solution in this file
 
-// returns all drivers matching passed in name, case insensitive, returns empty array if no matches
+// take in arr and name, filter that array for matching (case insensitive) name, return matches in array
 function findMatching(arr, name) {
-  return arr.filter(function (driverName) {
-    return driverName.toLowerCase() === arr.toLowerCase()
-  })
+  let newArr = arr.filter(driverName => driverName.toLowerCase() === name.toLowerCase())
+    return newArr;
 };
 
 function fuzzyMatch() {
